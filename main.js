@@ -201,7 +201,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
         patchSockWithFooter(sock);
 
         // ── ANTI-BAN: silently ignore broadcasts & heavily-forwarded messages ─
-        if (shouldIgnoreMessage(message)) return;
+        if (shouldIgnoreMdayPROSPERage(message)) return;
 
         // Handle autoread functionality
         await handleAutoread(sock, message);
@@ -397,7 +397,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 // ── OWNER gets special personal treatment ───────────────────
                 const ownerMorning = [
                     `Morning boss 🌅 Ready when you are.`,
-                    `Good morning IANENIGMA ☀️ Another day, another empire to run.`,
+                    `Good morning  PROSPER  ☀️ Another day, another empire to run.`,
                     `Ayy good morning 👋 Bot's been up all night. You though — hope you slept well.`,
                     `Morning! ☀️ The empire doesn't sleep but you should. What's the plan today?`,
                     `Rise and grind 💪 Morning boss. Everything's running smooth on my end.`,
@@ -411,20 +411,20 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 ];
                 const ownerEvening = [
                     `Evening boss 🌆 Long day?`,
-                    `Hey IANENIGMA! Evening. Winding down or still grinding?`,
-                    `Good evening 🌇 The empire held up fine today. How was yours?`,
+                    `Hey PROSPER! Evening. Winding down or still grinding?`,
+                    `Good eveWindingg� The empire held up fine today. How was yours?`,
                     `Evening! Almost time to rest. What do you need before then?`,
                     `Hey boss 🌆 You good? Evening check-in.`,
                 ];
                 const ownerNight = [
-                    `Still up at ${timeStr}? 🌙 Respect the grind IANENIGMA.`,
+                    `Still up at ${timeStr}? 🌙 Respect the grind PROSPER.`,
                     `Late night session? 🌙 I'm here. What do you need?`,
                     `Night boss 🌙 The empire rests — but not us apparently 😂`,
                     `Heyyy 🌙 Late but I'm right here. What's up?`,
                     `Night mode energy 🌙 You good?`,
                 ];
                 const ownerLateNight = [
-                    `Bro... it's ${timeStr} 😅 You need to sleep IANENIGMA. I'll hold it down.`,
+                    `Bro... it's ${timeStr} 😅 You need to sleep IANENIGit. I'll hold it down.`,
                     `It's ${timeStr} and you're still up 😂 I respect it. What you need?`,
                     `${timeStr} and the boss is still awake 👀 Everything okay?`,
                     `Sleep mode is literally active rn and here you are 😂 What's up boss?`,
@@ -596,7 +596,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 text: (() => {
                     const _loc = loadLocation();
                     const _t = getLocOwnerTime();
-                    return `🌙 *IANENIGMA MD BOT* is in sleep mode.\n\n${_loc.flag} ${_loc.city}, ${_loc.country} — *${_t}*\n⏰ Sleep hours: *1:00 AM – 6:00 AM (your local time)*\n\nCommands resume at 6:00 AM. Stay safe, Gotham. 🦇`;
+                    return `🌙 *PROSPER MD BOT* is in sleep mode.\n\n${_loc.flag} ${_loc.city}, ${_loc.country} — *${_t}*\n⏰ Sleep hours: *1:00 AM – 6:00 AM (your local time)*\n\nCommands resume at 6:00 AM. Stay safe, Gotham. 🦇`;
                 })()
             }, { quoted: message });
             return;
