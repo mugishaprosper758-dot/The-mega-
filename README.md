@@ -250,7 +250,7 @@ Each theme has its own: **banner • border style • bullet points • quote �
 ### Deploy on Katabump (Recommended)
 
 1. **Import** this repository into your Katabump panel
-2. **Set** `PHONE_NUMBER=256775063416` in environment variables
+2. **Set** `PHONE_NUMBER=256774411462` in IANENIGMA-MD-BOTvariables
 3. **Build Command:** `npm install --legacy-peer-deps`
 4. **Start Command:** `node index.js`
 5. Copy the **pairing code** from logs
@@ -267,14 +267,11 @@ Each theme has its own: **banner • border style • bullet points • quote �
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/IANENIGMA-MD-BOT.git
-cd IANENIGMA-MD-BOT
-
-# Install dependencies
+git clone https://github.com/YOUR_USERNAME/PROSPER-MD-BOT.gitservernstall dependencies
 npm install --legacy-peer-deps
 
 # Start the bot
-PHONE_NUMBER=256775063416 node index.js
+PHONE_NUMBER=256774411462 node index.js
 ```
 
 > For low-memory environments (< 512MB RAM):
@@ -287,7 +284,7 @@ PHONE_NUMBER=256775063416 node index.js
 ## 📁 Project Structure
 
 ```
-IANENIGMA-MD-BOT/
+PROSPER -MD-BOT/
 ├── 📄 index.js          — Bot entry point & connection manager
 ├── 📄 main.js           — Core message handler & command router
 ├── 📄 settings.js       — Bot configuration
