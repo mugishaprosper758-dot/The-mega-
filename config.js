@@ -11,15 +11,15 @@ global.mods = []
 global.prems = []
 
 // THIS IS WHAT YOU CHANGE 👇
-global.botname = 'IANENIGMA MD BOT' 
+global.botname = 'PROSPER MD BOT' 
 global.author = 'v1.0.0'
-global.namebot = 'IANENIGMA MD BOT'
+global.namebot = 'PROSPER BOT' MD BOT'
 global.version = 'v1.0.0'
 // END OF CHANGES 👆
 
-global.packname = 'IANENIGMA'
-global.wm = '© IANENIGMA MD BOT'
-global.stickpack = 'IANENIGMA'
+global.packname = 'PROSPER'
+global.wm = 'PROSPER MD BOT'
+global.stickpack = 'PROSPER'
 global.stickauth = `v1.0.0`
 global.wait = '_Loading..._'
 global.eror = '_Server Error_'
