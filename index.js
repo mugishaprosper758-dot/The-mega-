@@ -1,6 +1,6 @@
 /*
- * IANENIGMA MD BOT - WhatsApp Bot
- * IANENIGMA MD BOT — by IANENIGMA
+ * PROSPER MD BOT - WhatsApp Bot
+ * PROSPER MD BOT — by PROSPER 
  * Batman / Gotham theme
  */
 
@@ -13,14 +13,14 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => {
-  res.send('🦇 IANENIGMA MD BOT v1.0.0 is protecting Gotham!')
+  res.send('🦇 PROSPER MD BOT v1.0.0 is protecting Gotham!')
 })
 
 app.get('/download', (req, res) => {
   const path = require('path')
   const { execSync } = require('child_process')
   const os = require('os')
-  const tmpZip = path.join(os.tmpdir(), 'IANENIGMA-MD-BOT.zip')
+  const tmpZip = path.join(os.tmpdir(), 'PROSPER-MD-BOT.zip')
 
   try {
     execSync(
@@ -41,7 +41,7 @@ with zipfile.ZipFile('${tmpZip}', 'w', zipfile.ZIP_DEFLATED) as zf:
       { timeout: 30000 }
     )
     res.setHeader('Content-Type', 'application/zip')
-    res.setHeader('Content-Disposition', 'attachment; filename="IANENIGMA-MD-BOT.zip"')
+    res.setHeader('Content-Disposition', 'attachment; filename="PROSPER-MD-BOT.zip"')
     const fs2 = require('fs')
     fs2.createReadStream(tmpZip).pipe(res)
   } catch (e) {
@@ -59,7 +59,7 @@ app.listen(port, () => {
 // the session folder using an ABSOLUTE path so it works on any host panel.
 // Handles multiple common formats:
 //   • plain base64 of creds.json
-//   • PREFIX;;;base64  (e.g. KNIGHT;;;xxx  or  IANENIGMA;;;xxx)
+//   • PREFIX;;;base64  (e.g. KNIGHT;;;xxx  or  PROSPER;;;xxx)
 //   • data:...;base64,xxx  (data URI format)
 const SESSION_DIR = require('path').join(__dirname, 'session')
 ;(function loadSessionFromEnv() {
@@ -97,7 +97,7 @@ const SESSION_DIR = require('path').join(__dirname, 'session')
 
         // Strip any known prefix formats before the base64 payload
         let raw = sessionId.trim()
-        // Format: ANYTHING;;;base64payload  (e.g. KNIGHT;;;, IANENIGMA;;;)
+        // Format: ANYTHING;;;base64payload  (e.g. KNIGHT;;;, PROSPER;;;)
         if (raw.includes(';;;')) raw = raw.split(';;;').pop().trim()
         // Format: ANYTHING:~base64payload  (e.g. ADEVOS-X:~, KNIGHT:~)
         if (raw.includes(':~')) raw = raw.split(':~').pop().trim()
@@ -425,7 +425,7 @@ async function startXeonBotInc() {
 
                 // Connected message
                 await XeonBotInc.sendMessage(ownerJid, {
-                    text: `🦇 *IANENIGMA MD BOT — CONNECTED!*\n` +
+                    text: `🦇 *PROSPER MD — CONNECTED!*\n` +
                           `━━━━━━━━━━━━━━━━━━━━━━━\n` +
                           `✅ Status: *Online & Ready*\n` +
                           `⏰ Server Time: ${new Date().toLocaleString()}\n` +
