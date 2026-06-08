@@ -2,7 +2,7 @@
 
 <!-- Animated Title -->
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1000&color=FFD700&center=true&vCenter=true&width=900&height=80&lines=🦇+IANENIGMA+MD+BOT;DC+Universe+WhatsApp+Bot;180%2B+Commands+%7C+12+DC+Themes;Built+in+Uganda+🇺🇬" alt="IANENIGMA MD BOT"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&pause=1000&color=FFD700&center=true&vCenter=true&width=900&height=80&lines=🦇+PROSPER+MD+BOT;DC+Universe+WhatsApp+Bot;180%2B+Commands+%7C+12+DC+Themes;Built+in+Uganda+🇺🇬" alt="PROSPER MD BOT"/>
 </a>
 
 <br/>
@@ -20,15 +20,13 @@
 
 > **"In the shadows of code, a legend was built."**
 >
-> 🦇 Designed & Built by **IANENIGMA** — Uganda 🇺🇬
+> 🦇 Designed & Built by **PROSPER**anda Uganda 🇺🇬
 
 </div>
 
 ---
 
-## 🦇 What is IANENIGMA MD?
-
-**IANENIGMA MD** is a feature-rich, DC Universe-themed WhatsApp Multi-Device Bot built on the Baileys v7 library. It goes far beyond a typical WhatsApp bot — with **12 switchable DC character themes**, **180+ commands**, **10-layer anti-ban protection**, **AI integrations**, and a greeting system that responds like a real human being.
+## �WHO IS PROSPER IANENIGPROSPER MD** is a feature-rich, DC Universe-themed WhatsApp Multi-Device Bot built on the Baileys v7 library. It goes far beyond a typical WhatsApp bot — with **12 switchable DC character themes**, **180+ commands**, **10-layer anti-ban protection**, **AI integrations**, and a greeting system that responds like a real human being.
 
 Built from the ground up for performance, personality, and protection.
 
@@ -342,7 +340,7 @@ IANENIGMA-MD-BOT/
 
 | | |
 |---|---|
-| **Name** | IANENIGMA |
+| **Name** | PROSPER |
 | **Title** | The Architect |
 | **Location** | Uganda 🇺🇬 |
 | **Specialty** | WhatsApp Automation & AI Integration |
@@ -371,7 +369,7 @@ Type `.ianenigma` in the bot to see the full creator profile.
 MIT License — see [LICENSE](LICENSE) for details.
 
 You are free to use, modify, and distribute this software provided you:
-- Credit the original author (**IANENIGMA**)
+- Credit the original author (**PROSPER**)
 - Include the original license
 - Do not use for spam or malicious purposes
 
@@ -379,7 +377,7 @@ You are free to use, modify, and distribute this software provided you:
 
 <div align="center">
 
-**🦇 Built with 💛 by IANENIGMA — Uganda 🇺🇬**
+**🦇 Built with 💛 by PROSPER — Uganda 🇺🇬**
 
 _The Dark Knight of WhatsApp Bots_
 
