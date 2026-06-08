@@ -1,4 +1,4 @@
-{
+hi{
   "name": "prosper-md-bot",
   "version": "4.0.0",
   "description": " PROSPER \u2014 Feature-rich DC Universe themed WhatsApp Multi-Device Bot with 180+ commands, 12 DC themes, and 10-layer anti-ban protection. Built in Uganda \ud83c\uddfa\ud83c\uddec",
@@ -30,7 +30,7 @@
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg/ffmpeg": "^0.12.15",
     "@hapi/boom": "^10.0.1",
-    "@types/nPROSPER8.0.6",
+    
     "@whiskeysockets/baileys": "^v7.0.0-rc.9",
     "archiver": "^8.0.0",
     "awesome-phonenumber": "^5.9.0",
